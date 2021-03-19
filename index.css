@@ -1,0 +1,31 @@
+h1{
+    color: bisque
+}
+.header{
+background-color: powderblue  ;
+display:flex ;
+justify-content : space-between;
+padding: 30px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column-25 {
+    flex-basis: 25%;
+    margin: 0px 1%;
+    text-align: center;
+  }
+
+.section-margin-bottom {
+    margin-bottom: 75px;
+}
+
+.container {
+    max-width: 2000px;
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+}
